@@ -1,2 +1,2 @@
-# vue-components-vue-drag-verify
-vue components
+# vue-drag-verify
+vue-drag-verify
