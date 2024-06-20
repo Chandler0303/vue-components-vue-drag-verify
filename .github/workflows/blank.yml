@@ -37,10 +37,6 @@ jobs:
       - name: 部署
         # 默认配置
         uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # 在第三步中设置的 ACCESS_TOKEN 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      - run: npm install
         env:
           # 在第三步中设置的 NPM_TOKEN
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
