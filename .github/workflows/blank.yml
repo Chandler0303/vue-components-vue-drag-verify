@@ -36,7 +36,7 @@ jobs:
       # 执行部署步骤
       - name: 部署
         # 默认配置
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 在第三步中设置的 ACCESS_TOKEN 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
